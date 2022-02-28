@@ -1,0 +1,124 @@
+{
+    "riddles": [
+        {
+            "id": 1,
+            "title": "Say what?",
+            "question": "I speak without a mouth and hear without ears. I have no body, but I come alive with wind. What am I? ",
+            "hint": "This riddle relies on tricking you into thinking about ears and a mouth. You get a tiny hint about wind to encourage you to think broadly and avoid the literal.",
+            "answer": "An echo."
+        },
+        {
+            "id": 2,
+            "title": "Match game",
+            "question": "You measure my life in hours and I serve you by expiring. I’m quick when I’m thin and slow when I’m fat. The wind is my enemy.",
+            "hint": "Hard riddles want to trip you up, and this one works by hitting you with details from every angle. The big hint comes at the end with the wind. What does wind threaten most? You have to stretch your brain to come up with something tiny and unexpected.",
+            "answer": "A candle."
+        },
+        {
+            "id": 3,
+            "title": "Hidden treasure",
+            "question": "I have cities, but no houses. I have mountains, but no trees. I have water, but no fish. What am I?",
+            "hint": "This riddle aims to confuse you and get you to focus on the things that are missing: the houses, trees, and fish. You might guess you need to think about something inanimate.",
+            "answer": "A map."
+        },
+        {
+            "id": 4,
+            "title": "Spring ahead",
+            "question": "What is seen in the middle of March and April that can’t be seen at the beginning or end of either month?",
+            "hint": "This riddle works by trying to get you to think about the weather or holidays or other events linked to a calendar. To get this one right you actually need to get super literal.",
+            "answer": "The letter 'R.'"
+        },
+        {
+            "id": 5,
+            "title": "Cruising along",
+            "question": "You see a boat filled with people. It has not sunk, but when you look again you don’t see a single person on the boat. Why?",
+            "hint": "Hard riddles like this brainteaser are tricky because they seem to invite straightforward, logical thinking. You may come up with answers like “they all went below deck” or “jumped overboard.” But you need to focus on the word “single” and think about its other meanings.",
+            "answer": "All the people were married."
+        },
+        {
+            "id": 6,
+            "title": "Wordplay",
+            "question": "What word in the English language does the following: the first two letters signify a male, the first three letters signify a female, the first four letters signify a great, while the entire world signifies a great woman. What is the word? ",
+            "hint": "This is hard because it gets you thinking about gender and the ways they’re different. You have to think of one word that holds the others. It’s easy when you think about it!",
+            "answer": "Heroine"
+        },
+        {
+            "id": 7,
+            "title": "Violent delights",
+            "question": "A woman shoots her husband, then holds him underwater for five minutes. Next, she hangs him. Right after, they enjoy a lovely dinner. Explain.",
+            "hint": "This puzzle aims to throw you off balance with shock. But pay attention to the first verb, “shoots.” What else can you shoot with besides a gun? There lies the key to the whole thing.",
+            "answer": "She took a picture of him and developed it in her darkroom."
+        },
+        {
+            "id": 8,
+            "title": "Find the key",
+            "question": "I have keys, but no locks and space, and no rooms. You can enter, but you can’t go outside. What am I?",
+            "hint": "This one tricks you by having you think about space that can be entered. Then it gets you to merge that with a space without rooms where you can’t leave. You might even be hung up on those keys. That’s where you should linger. Think about that word. What are some other meanings of “keys”—especially those that don’t require locks?",
+            "answer": "A keyboard"
+        },
+        {
+            "id": 9,
+            "title": "Sibling squad",
+            "question": "A girl has as many brothers as sisters, but each brother has only half as many brothers as sisters. How many brothers and sisters are there in the family?",
+            "hint": "This trick question gives you a bunch of ways to get totally confused if you try to figure out the answer. The key is to keep it simple. Be sure to count the sisters and brothers in total and in terms of their own number of siblings. Then the answer gets a little easier.",
+            "answer": "Four sisters and three brothers."
+        },
+        {
+            "id": 10,
+            "title": "Literally speaking",
+            "question": "How many letters are in the alphabet?",
+            "hint": "Some hard riddles trip you up by sending you to the easiest answer first. You got this one easy, right? Twenty-six—if you’re talking English alphabet. Not so fast. Take another look and get super simple and straightforward.",
+            "answer": "There are 11 letters in the words “the alphabet”"
+        },
+        {
+            "id": 11,
+            "question": "What five-letter word becomes shorter when you add two letters to it?",
+            "answer": "Short"
+        },
+        {
+            "id": 12,
+            "question": "What has to be broken before you can use it?",
+            "answer": "Egg"
+        },
+        {
+            "id": 13,
+            "question": "What has a neck but has no head?",
+            "answer": "Guitar"
+        },
+        {
+            "id": 14,
+            "question": "What has ten letters and starts with gas?",
+            "answer": "Automobile"
+        },
+        {
+            "id": 15,
+            "question": "Jared’s father has three sons: Snap, Crackle and…?",
+            "answer": "Jared"
+        },
+        {
+            "id": 16,
+            "question": "What five-letter word becomes shorter when you add two letters to it?",
+            "answer": "Short"
+        },
+        {
+            "id": 17,
+            "question": "What five-letter word becomes shorter when you add two letters to it?",
+            "answer": "Short"
+        },
+        {
+            "id": 18,
+            "question": "What five-letter word becomes shorter when you add two letters to it?",
+            "answer": "Short"
+        },
+        {
+            "id": 19,
+            "question": "What five-letter word becomes shorter when you add two letters to it?",
+            "answer": "Short"
+        },
+        {
+            "id": 20,
+            "question": "What five-letter word becomes shorter when you add two letters to it?",
+            "answer": "Short"
+        }
+    ]
+}
