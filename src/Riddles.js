@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
 function Riddles() {
+    const [riddle, setRiddle] = useState([]);
 
     useEffect(() => {
         fetch('http://localhost:3001/riddles')
         .then(r => r.json())
-        .then(data => console.log(data))
+        .then(data => setRiddle(data))
     }, [])
 
     return (
