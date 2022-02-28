@@ -1,17 +1,16 @@
 import React from 'react';
 
-function Riddle() {
+function Riddle({ riddle }) {
+    const {id, title, question, hint, answer} = riddle;
+
+
     return (
-        <div>
-            <h1>Riddle Page</h1>
-            <hr/>
-            <li>
-                <h4>Title</h4>
-                <p>Question</p>
+            <li id={id}>
+                <h4>{title}</h4>
+                <p>{question}</p>
                 <button>Need a Hint</button>
                 <button>Answer</button>
             </li>
-        </div>
     );
 }
 
