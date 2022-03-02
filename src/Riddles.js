@@ -7,18 +7,21 @@ function Riddles() {
     useEffect(() => {
         fetch('http://localhost:3001/riddles')
         .then(r => r.json())
-        .then(data => setRiddles(data))
+        .then(riddleArray => setRiddles(riddleArray))
     }, [])
 
-    const riddleList = riddles.map((riddle) => (
-        <Riddle key={riddle.id} riddle={riddle} />
-    ))
+    const displayedRiddles = riddles.filter(riddle => riddle.title)
+
 
     return (
         <div>
             <h1>Riddles Page</h1>
             <hr/>
-            <ul>{riddleList}</ul>
+            <ul className='cards'>
+                {displayedRiddles.map((riddle) => (
+                    <Riddle key={riddle.id} listOfRiddles={riddle} />
+                ))}
+            </ul>
         </div>
     );
 }
