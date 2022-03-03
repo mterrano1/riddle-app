@@ -1,14 +1,19 @@
 import React from 'react';
 
-function Riddle({ riddle }) {
-    const {id, title, question, hint, answer} = riddle;
+function Riddle({ listOfRiddles }) {
+    const {id, title, question, hint, answer} = listOfRiddles;
+
+    function hintAlert() {
+        alert(hint)
+    }
 
 
     return (
-            <li id={id}>
+            <li className= 'card' id={id}>
                 <h4>{title}</h4>
+                <hr />
                 <p>{question}</p>
-                <button>Need a Hint</button>
+                <button onClick={hintAlert}>Need a Hint</button>
                 <button>Answer</button>
             </li>
     );
