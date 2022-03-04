@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function RiddleForm() {
     const [title, setTitle] = useState('');
     const [question, setQuestion] = useState('');
     const [hint, setHint] = useState('');
     const [answer, setAnswer] = useState('');
+    const navigate = useNavigate();
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        const formData = {
-            riddle: { title, question, hint, answer }
-        }
+        const formData = { title, question, hint, answer }
         fetch('http://localhost:3001/riddles', {
             method: "POST",
             headers: {
@@ -19,7 +19,7 @@ function RiddleForm() {
             body: JSON.stringify(formData)
         })
         .then(r => r.json())
-        .then(data => console.log(data.riddle))
+        navigate(-1)
     }
 
     return (
@@ -46,7 +46,7 @@ function RiddleForm() {
                     <input type='text' value={answer} onChange={e => setAnswer(e.target.value)} placeholder='Input answer...'/>
                     <br />
                     <br />
-                <button>Submit</button>
+                    <button>Submit</button>
             </form>
         </section>
     );
