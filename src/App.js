@@ -1,8 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import Riddles from './Riddles';
-import Riddle from './Riddle';
+import RiddleAnswer from './RiddleAnswer';
 import RiddleForm from './RiddleForm';
 import NavBar from './NavBar';
 import Challenge from './Challenge';
@@ -13,13 +13,13 @@ function App() {
     <Router>
       <NavBar />
       <div className="App">
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/riddles' component={Riddles} />
-          <Route exact path='/riddles/new' component={RiddleForm} />
-          <Route path='/riddles/:id' component={Riddle} />
-          <Route path='/challenge' component={Challenge} />
-        </Switch>
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/riddles' element={<Riddles />} />
+          <Route exact path='/riddles/new' element={<RiddleForm />} />
+          <Route exact path='/riddles/:id' element={<RiddleAnswer />} />
+          <Route path='/challenge' element={<Challenge />} />
+        </Routes>
       </div>
     </Router>
   );
