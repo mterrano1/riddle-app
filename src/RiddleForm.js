@@ -8,7 +8,18 @@ function RiddleForm() {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        console.log('clicked')
+        const formData = {
+            riddle: { title, question, hint, answer }
+        }
+        fetch('http://localhost:3001/riddles', {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(formData)
+        })
+        .then(r => r.json())
+        .then(data => console.log(data.riddle))
     }
 
     return (
