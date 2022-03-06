@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import ChallengeQuestions from './ChallengeQuestions';
 
 function Challenge() {
     const [timeLeft, setTimeLeft] = useState(0);
-    const [disable, setDisable] = useState(false);
+    const [disableBtn, setDisableBtn] = useState(false);
 
     useEffect(() => {
         if (timeLeft === 0) {
@@ -21,15 +22,18 @@ function Challenge() {
 
     const handleClick = () => {
         setTimeLeft(100)
-        setDisable(true)
+        setDisableBtn(true)
     }
+
+    const handleTimesUp = timeLeft === 0 ? true : false
 
     return (
         <div>
             <h1>Challenge Page</h1>
             <hr />
-            <button disabled={disable} onClick={handleClick}>Click to begin</button>
-            {timeLeft ? <h4>{timeLeft} seconds remaining!</h4> : <h4>100 seconds remaining!</h4>}  
+            <button disabled={disableBtn} onClick={handleClick}>Click to begin</button>
+            {timeLeft ? <h4>{timeLeft} seconds remaining!</h4> : <h4>100 seconds remaining!</h4>}
+            <ChallengeQuestions handleTimesUp={handleTimesUp} />
         </div>
     );
 }
