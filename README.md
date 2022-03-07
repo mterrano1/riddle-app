@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Phase-1-Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Introduction
+------------
 
-## Available Scripts
+Welcome to my second Flatiron School project! Sometimes I feel like I'm trying to solve riddles when I'm staring at code for so long and trying to get something to work. Sometimes I get frustrated, and sometimes I get inspiration for a new project! My requirements for this project were:
 
-In the project directory, you can run:
+-Create a Single Page Application using React
+-It must contain a minimum of five components
+-It must contain a minimum of three client-side routes
+-It must make a GET & POST fetch request to a JSON server
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I hope you enjoy viewing my riddle app as much as I enjoyed making it!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Description
+-----------
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-To view the riddles, click on the button that says: 'Get started'
 
-### `npm run build`
+-Now you will see a list 10 riddles on the screen for you to try and solve. Below each riddle are two buttons. If you click on the button that says 'Need a hint,' an alert will pop up on your screen providing you with a hint to help you solve the riddle. If you think you know the answer or you want to see if your answer is correct the click on the button that says 'Answer.' This will render a new component showing you the answer to that riddle.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-If you'd like to contribute to the list of riddles, click on the 'Add new riddle' tab in the Navigation Bar at the top of the page. This will take you to a form where you can enter your own riddle title, question, hint, and answer. Once you've entered all of your riddle information, click on the button that says 'submit' and your riddle will be posted to the db.json, you'll be programmatically navigated back to the riddles component, and you should see your new riddle on the page with all of the others.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-If you're really feeling adventerous, feel free to take a crack at the riddle challenge by clicking on the tab in the navigation bar that says 'Challenge.' The challenge is to answer as many riddles as you can in the allotted time. As soon as you run out of time, you will see 'Correct' render below the question if you answered the riddle correctly, or you will see 'The correct answer is: {whatever the answer is}.'
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+See it for yourself here!
+---------------
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://www.youtube.com/watch?v=5UFWvUW6yd0
