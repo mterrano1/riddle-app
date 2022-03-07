@@ -1,17 +1,18 @@
 import React, { useState } from 'react';
 
 function ChallengeQuestion({ arrayOfRiddles, handleTimesUp }) {
-    const [answers, setAnswers] = useState([]);
+    const [answersObj, setAnswersObj] = useState({});
     const {id, question, answer} = arrayOfRiddles;
 
     const handleInput = (e) => {
-        const userInput = {
-            id: id,
-            answer: e.target.value
-        }
-        setAnswers(userInput)
-        console.log(answers)
+        const userAnswer = e.target.value
+        setAnswersObj(userAnswer)
     }
+
+    const verdict = 
+    (handleTimesUp && answersObj.toString().toLowerCase() === answer.toString().toLowerCase()) ? 
+    'Correct!' : 
+    `The correct answer is: ${answer}`
 
 
     return (
@@ -23,6 +24,7 @@ function ChallengeQuestion({ arrayOfRiddles, handleTimesUp }) {
                 disabled={handleTimesUp} 
                 placeholder={'Input your answer...'}>
             </input>
+            <span>{handleTimesUp ? <p>{verdict}</p> : ''}</span>
         </li>
     );
 }
